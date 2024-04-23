@@ -1,0 +1,1 @@
+Example repository for developing [StreamDeck NodeJS v20 SDK](https://github.com/elgatosf/streamdeck)
