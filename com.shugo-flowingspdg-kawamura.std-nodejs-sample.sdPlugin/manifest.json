@@ -1,0 +1,36 @@
+{
+	"Name": "std-nodejs-sample",
+	"Version": "0.1.0",
+	"Author": "Shugo \"FlowingSPDG\" Kawamura",
+	"Actions": [
+        {
+            "Name": "Say Hello",
+            "UUID": "com.elgato.hello-world.say-hello",
+            "States": [{ "TitleAlignment": "middle" }]
+        }
+    ],
+	"Category": "std-nodejs-sample",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Sample plugin for StreamDeck NodeJS v20 SDK",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.15"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.shugo-flowingspdg-kawamura.std-nodejs-sample"
+}
