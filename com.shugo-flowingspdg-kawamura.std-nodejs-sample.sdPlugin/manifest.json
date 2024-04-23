@@ -5,7 +5,7 @@
 	"Actions": [
         {
             "Name": "Say Hello",
-            "UUID": "com.elgato.hello-world.say-hello",
+            "UUID": "com.shugo-flowingspdg-kawamura.std-nodejs-sample.say-hello",
             "States": [{ "TitleAlignment": "middle" }]
         }
     ],
